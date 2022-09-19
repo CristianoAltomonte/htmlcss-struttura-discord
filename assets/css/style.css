@@ -14,7 +14,7 @@ header{
     margin: auto;
 }
 
-.flex{
+.flex-space-between{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -87,11 +87,10 @@ section{
      
 }
 
-
-
 .testo {
     background-color: rgb(4, 175, 4);
     height: 20vh;
+    
 }
 .immagine {
     background-color: rgb(66, 241, 66);
@@ -103,11 +102,39 @@ section{
 }
 
 .row { 
-    display: flex;
-    flex-direction: column;
     padding-top: 1%;
     background-color: grey;
     height: auto;
     align-items: center;
 }
 
+.flex-column{
+    display: flex;
+    flex-direction:column;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-footer{
+    height: 50vh;
+    
+}
+
+.colonna1{
+    background-color: red;
+    flex-grow: 2;
+}
+
+.colonna2{
+    background-color: brown;
+    flex-grow: 1;
+    
+}
+.colonna3{
+    background-color: rgb(109, 8, 8);
+    flex-grow: 1;
+   
+}
