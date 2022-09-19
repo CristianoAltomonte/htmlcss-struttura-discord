@@ -3,3 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.center{
+    width: 80%;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav{
+    background-color: red;
+    height: 13vh;
+}
+
+.logo, .menu, .bottone{
+    background-color: rgb(59, 237, 59);
+}
+
+.logo, .bottone{
+    flex-basis: 15%;
+}
+
+.menu{
+    flex-basis: 45%;
+}
