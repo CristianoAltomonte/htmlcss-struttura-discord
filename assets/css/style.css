@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+header{
+    background-color: lightgrey;
+    height: 60vh;
+}
+
 .center{
     width: 80%;
     margin: auto;
@@ -30,4 +35,11 @@ nav{
 
 .menu{
     flex-basis: 45%;
+}
+
+.container-text{
+    background-color: orange;
+    height: 47vh;
+    width: 50%;
+    
 }
