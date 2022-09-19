@@ -138,3 +138,19 @@ section{
     flex-grow: 1;
    
 }
+
+footer{
+    background-color: lightgrey;
+}
+
+.bottom-button{
+    background-color: lightskyblue;
+    height: 10vh;
+
+}
+
+.cella{
+    background-color: blue;
+    width: 15%;
+    height: 100%;
+}
