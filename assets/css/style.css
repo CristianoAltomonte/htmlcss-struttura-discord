@@ -42,10 +42,9 @@ nav{
     height: 47vh;
     width: 50%;
     text-align: center;
-    
 }
 
-section{
+.canali-discord{
     width: 100%;
     height: 30vh;
     background-color: white;
@@ -67,22 +66,22 @@ section{
     height: 30vh; 
 }
 
-.picture, .picture2 {
+.picture {
     height: auto;
-    width: 55%;  
+    flex-basis: 55%;  
 }
 
-.text, .text2{
+.text{
     height: auto;
-    width: 40%;  
+    flex-basis: 40%;  
 }
 
-.picture, .text2{
+.picture{
     background-color: lightgreen;
     
 }
 
-.text, .picture2 {
+.text{
     background-color: darkgreen;
      
 }
@@ -153,4 +152,8 @@ footer{
     background-color: blue;
     width: 15%;
     height: 100%;
+}
+
+footer > div:first-child{
+    border-bottom: 5px solid black;
 }
